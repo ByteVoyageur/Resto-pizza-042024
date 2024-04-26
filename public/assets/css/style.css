@@ -1,7 +1,5 @@
 @charset "UTF-8";
-/*
-Template Name: Restho - Resturent HTML Template
-*/
+
 /*================================================
 1. Mixins Css
 2. Global CSS
@@ -2617,7 +2615,7 @@ header.style-3 .header-logo {
 }
 header.style-3 .header-logo img {
   min-width: 120px;
-  max-width: 100%;
+  max-width: 150px;
 }
 header.style-3 .menu-close-btn i {
   color: var(--title-color-dark);
