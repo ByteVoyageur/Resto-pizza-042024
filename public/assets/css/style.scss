@@ -1350,6 +1350,7 @@ body.tt-magic-cursor #magic-cursor {
 }
 
 .section-title {
+  gap: 20px;
   span {
     @include font(1.125rem, 400, var(--primary-color1));
     line-height: 1.625rem;
@@ -6358,6 +6359,7 @@ footer {
 =======================================*/
 .home3-banner {
   position: relative;
+  margin-bottom: 50px;
   .social-area {
     background-image: url(../images/icon/h3-social-bg.svg);
     background-repeat: no-repeat;

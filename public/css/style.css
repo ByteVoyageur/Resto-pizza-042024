@@ -1269,6 +1269,9 @@ body.tt-magic-cursor #magic-cursor {
   padding: 7px 27px;
 }
 
+.section-title {
+  gap: 20px;
+}
 .section-title span {
   font-size: 1.125rem;
   font-weight: 400;
@@ -6507,6 +6510,7 @@ footer .footer-btm .privacy-policy p a:hover {
 =======================================*/
 .home3-banner {
   position: relative;
+  margin-bottom: 50px;
 }
 .home3-banner .social-area {
   background-image: url(../images/icon/h3-social-bg.svg);
