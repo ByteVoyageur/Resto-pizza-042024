@@ -1,63 +1,63 @@
-import Link from "next/link";
-import React from "react";
+import Link from 'next/link'
+import React from 'react'
 
 function Footer() {
   return (
     <footer>
-      <div className="footer-top ">
-        <div className="container">
-          <div className="row justify-content-center align-items-center gy-5">
-            <div className="col-lg-4 col-md-6  order-md-1 order-2">
-              <div className="footer-widget one">
-                <div className="widget-title">
-                  <h3>Our Facilities</h3>
+      <div className='footer-top '>
+        <div className='container'>
+          <div className='row justify-content-center align-items-center gy-5'>
+            <div className='col-lg-4 col-md-6  order-md-1 order-2'>
+              <div className='footer-widget one'>
+                <div className='widget-title'>
+                  <h3>Acces rapide</h3>
                 </div>
-                <div className="menu-container">
+                <div className='menu-container'>
                   <ul>
                     <li>
-                      <Link legacyBehavior href="/menu1">
+                      <Link legacyBehavior href='/menu1'>
                         Indian Menu
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/menu1">
+                      <Link legacyBehavior href='/menu1'>
                         Menu Item
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/reservation">
+                      <Link legacyBehavior href='/reservation'>
                         Private Event
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/menu1">
+                      <Link legacyBehavior href='/menu1'>
                         Italian Menu
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/category">
+                      <Link legacyBehavior href='/category'>
                         Best Offer
                       </Link>
                     </li>
                   </ul>
                   <ul>
                     <li>
-                      <Link legacyBehavior href="/category">
+                      <Link legacyBehavior href='/category'>
                         Popular Item
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/menu1">
+                      <Link legacyBehavior href='/menu1'>
                         Regular Menu
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/menu1">
+                      <Link legacyBehavior href='/menu1'>
                         New Food
                       </Link>
                     </li>
                     <li>
-                      <Link legacyBehavior href="/category">
+                      <Link legacyBehavior href='/category'>
                         Special Offer
                       </Link>
                     </li>
@@ -65,74 +65,78 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 order-md-2 order-1">
-              <div className="footer-widgetfooter-widget social-area">
-                <div className="footer-logo text-center">
-                  <Link legacyBehavior href="/">
-                    <img src="assets/images/header1-logo.svg" alt="" />
+            <div className='col-lg-4 col-md-6 order-md-2 order-1'>
+              <div className='footer-widgetfooter-widget social-area'>
+                <div className='footer-logo text-center'>
+                  <Link legacyBehavior href='/'>
+                    <img
+                      className='logo-claire'
+                      src='assets/images/logo-claire.png'
+                      alt=''
+                    />
                   </Link>
-                  <p>Established . 2022</p>
+                  <p>Depuis 2002</p>
                   <span>
-                    <img src="assets/images/icon/footer-shape.svg" alt="" />
+                    <img src='assets/images/icon/footer-shape.svg' alt='' />
                   </span>
                 </div>
-                <div className="footer-social">
-                  <ul className="social-link d-flex align-items-center justify-content-center">
+                <div className='footer-social'>
+                  <ul className='social-link d-flex align-items-center justify-content-center'>
                     <li>
-                      <a href="https://www.facebook.com/">
-                        <i className="bx bxl-facebook" />
+                      <a href='https://www.facebook.com/'>
+                        <i className='bx bxl-facebook' />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.instagram.com/">
-                        <i className="bx bxl-instagram-alt" />
+                      <a href='https://www.instagram.com/'>
+                        <i className='bx bxl-instagram-alt' />
                       </a>
                     </li>
                     <li>
-                      <a href="https://www.pinterest.com/">
-                        <i className="bx bxl-linkedin" />
+                      <a href='https://www.pinterest.com/'>
+                        <i className='bx bxl-linkedin' />
                       </a>
                     </li>
                     <li>
-                      <a href="https://twitter.com/">
-                        <i className="bx bxl-twitter" />
+                      <a href='https://twitter.com/'>
+                        <i className='bx bxl-twitter' />
                       </a>
                     </li>
                   </ul>
                 </div>
               </div>
             </div>
-            <div className="col-lg-4 col-md-6 order-3">
-              <div className="footer-widget one">
-                <div className="widget-title">
+            <div className='col-lg-4 col-md-6 order-3'>
+              <div className='footer-widget one'>
+                <div className='widget-title'>
                   <h3>Address Info</h3>
                 </div>
-                <div className="contact-info">
-                  <div className="single-contact">
-                    <span className="title">Phone:</span>
-                    <span className="content">
-                      <a href="tel:+8801776766767">+880-1776-766-767</a>
+                <div className='contact-info'>
+                  <div className='single-contact'>
+                    <span className='title'>Phone:</span>
+                    <span className='content'>
+                      <a href='tel:+33563554189'>05 63 55 41 89</a>
                     </span>
                   </div>
-                  <div className="single-contact">
-                    <span className="title">Email:</span>
-                    <span className="content">
-                      <a href="mailto:info@example.com">info@example.com</a>
+                  <div className='single-contact'>
+                    <span className='title'>Email:</span>
+                    <span className='content'>
+                      <a href='mailto:info@example.com'>info@example.com</a>
                     </span>
                   </div>
-                  <div className="single-contact">
-                    <span className="title">Fax ID:</span>
-                    <span className="content">
-                      <a href="fax:+9975667786">+99-75667-786</a>
+                  <div className='single-contact'>
+                    <span className='title'>Fax ID:</span>
+                    <span className='content'>
+                      <a href='fax:+9975667786'>+99-75667-786</a>
                     </span>
                   </div>
-                  <div className="single-contact">
-                    <span className="title">Location:</span>
-                    <span className="content">
-                      <a href="https://goo.gl/maps/2Q4gzMK8mNc1uYnL7">
-                        Mirpur DOHS,House-167/170,
+                  <div className='single-contact'>
+                    <span className='title'>Location:</span>
+                    <span className='content'>
+                      <a href='https://maps.app.goo.gl/bXtTHTV64tz1dYxq8'>
+                        28 avenue Jules-Pelissier,
                         <br />
-                        Road-02 Avenue-01.
+                        Réalmont, 81120
                       </a>
                     </span>
                   </div>
@@ -142,27 +146,27 @@ function Footer() {
           </div>
         </div>
       </div>
-      <div className="footer-btm">
-        <div className="container">
-          <div className="row border-ttop g-2">
-            <div className="col-md-8 justify-content-md-start justify-content-center">
-              <div className="copyright-area">
+      <div className='footer-btm'>
+        <div className='container'>
+          <div className='row border-ttop g-2'>
+            <div className='col-md-8 justify-content-md-start justify-content-center'>
+              <div className='copyright-area'>
                 <p>
-                  @Copyright by{" "}
-                  <Link legacyBehavior href="#">
-                    Egenslab
+                  @Copyright by{' '}
+                  <Link legacyBehavior href='#'>
+                    Xiaosong
                   </Link>
-                  -2023, All Right Reserved.
+                  -2024, All Right Reserved.
                 </p>
               </div>
             </div>
-            <div className="col-md-4 d-flex justify-content-md-end justify-content-center">
-              <div className="privacy-policy">
+            <div className='col-md-4 d-flex justify-content-md-end justify-content-center'>
+              <div className='privacy-policy'>
                 <p>
-                  <Link legacyBehavior href="#">
+                  <Link legacyBehavior href='#'>
                     Privacy &amp; Policy
-                  </Link>{" "}
-                  | <a href="#">Terms and Conditions</a>
+                  </Link>{' '}
+                  | <a href='#'>Terms and Conditions</a>
                 </p>
               </div>
             </div>
@@ -170,7 +174,7 @@ function Footer() {
         </div>
       </div>
     </footer>
-  );
+  )
 }
 
-export default Footer;
+export default Footer
