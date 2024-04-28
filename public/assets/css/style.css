@@ -2695,6 +2695,9 @@ header.style-3 .nav-right {
 header.style-3 .nav-right .hotline {
   align-items: center;
 }
+.mobile-logo-wrap img {
+  max-width: 150px;
+}
 @media (max-width: 1399px) {
   header.style-3 .nav-right .hotline {
     display: none !important;

@@ -53,46 +53,6 @@ function Header3() {
 
   return (
     <>
-      <div className='top-bar three'>
-        <div className='container-lg container-fluid bg-white'>
-          <div className='row p-12 align-items-center position-relative'>
-            <div className='col-lg-5 d-flex align-items-center justify-content-md-start justify-content-center'>
-              <div className='vector-left'>
-                <img src='assets/images/bg/topbar-vec-left.png' alt='' />
-              </div>
-              <div className='welcome-note'>
-                <p>
-                  Welcome Our Restho Restaurant!{' '}
-                  <Link legacyBehavior href='/reservation'>
-                    <a>For Private Event</a>
-                  </Link>
-                </p>
-              </div>
-            </div>
-            <div className='col-lg-7 d-flex justify-content-lg-end justify-content-center align-items-center'>
-              <div className='vector-right'>
-                <img src='assets/images/bg/topbar-vec-right.png' alt='' />
-              </div>
-              <div className='contact-info'>
-                <ul>
-                  <li>
-                    <a href='mailto:info@example.com'>
-                      <i className='bi bi-envelope' /> info@example.com
-                    </a>
-                  </li>
-                  <li>
-                    <a>
-                      <i className='bi bi-geo-alt' />
-                      Road-01, Block-B, West London City
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-
       <header
         ref={headerRef}
         className={
@@ -122,7 +82,7 @@ function Header3() {
               <div className='mobile-logo-wrap'>
                 <Link href='/' legacyBehavior>
                   <a>
-                    <img alt='image' src='assets/images/header2-logo.svg' />
+                    <img alt='image' src='assets/images/icon/logo-dark.png' />
                   </a>
                 </Link>
               </div>
@@ -190,14 +150,6 @@ function Header3() {
                   </li>
                 </ul>
               </li>
-              <li>
-                <Link
-                  href='/about'
-                  className={currentRoute === '/about' ? 'active' : ''}
-                >
-                  About
-                </Link>
-              </li>
               <li className='menu-item-has-children'>
                 <Link
                   href='/menu1'
@@ -258,242 +210,6 @@ function Header3() {
                   </li>
                 </ul>
               </li>
-              <li className='menu-item-has-children'>
-                <a href='#' className='drop-down'>
-                  Pages
-                </a>
-                <i
-                  onClick={() => dispatch({ type: 'pages' })}
-                  className={
-                    state.activeMenu === 'pages'
-                      ? 'bi bi-plus dropdown-icon active'
-                      : 'bi bi-plus dropdown-icon'
-                  }
-                />
-                <ul
-                  className={
-                    state.activeMenu === 'pages'
-                      ? 'sub-menu  d-block'
-                      : state.activeMenu === 'gallary' ||
-                        state.activeMenu === 'chef' ||
-                        state.activeMenu === 'shop'
-                      ? 'sub-menu  d-block'
-                      : 'sub-menu d-xl-block d-none'
-                  }
-                >
-                  <li>
-                    <Link
-                      href='/category'
-                      className={
-                        currentRoute === '/category' ? 'active' : 'disable'
-                      }
-                    >
-                      Food Category
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='/reservation'
-                      className={
-                        currentRoute === '/reservation' ? 'active' : 'disable'
-                      }
-                    >
-                      Reservation
-                    </Link>
-                  </li>
-                  <li>
-                    <Link
-                      href='#'
-                      className={currentRoute === '#' ? 'active' : 'disable'}
-                    >
-                      Gallery
-                    </Link>
-                    <i className='d-lg-flex d-none bi bi-chevron-right dropdown-icon' />
-                    <i
-                      className='d-lg-none d-flex bi bi-chevron-down dropdown-icon'
-                      onClick={() => dispatch({ type: 'gallary' })}
-                    />
-                    <ul
-                      className={
-                        state.activeMenu === 'gallary'
-                          ? 'sub-menu d-block'
-                          : 'sub-menu d-none'
-                      }
-                    >
-                      <li>
-                        <Link
-                          href='/2col-gallery'
-                          className={
-                            currentRoute === '/2col-gallery'
-                              ? 'active'
-                              : 'disable'
-                          }
-                        >
-                          2 Columns Gallery
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href='/3col-gallery'
-                          className={
-                            currentRoute === '/3col-gallery'
-                              ? 'active'
-                              : 'disable'
-                          }
-                        >
-                          3 Columns Gallery
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <a
-                      href='#'
-                      className={
-                        currentRoute === '/chef-expertis' ? 'active' : 'disable'
-                      }
-                    >
-                      Chef
-                    </a>
-                    <i className='d-lg-flex d-none bi bi-chevron-right dropdown-icon' />
-                    <i
-                      className='d-lg-none d-flex bi bi-chevron-down dropdown-icon'
-                      onClick={() => dispatch({ type: 'chef' })}
-                    />
-                    <ul
-                      className={
-                        state.activeMenu === 'chef'
-                          ? 'sub-menu d-block'
-                          : 'sub-menu d-none'
-                      }
-                    >
-                      <li>
-                        <Link
-                          href='/chef-expertis'
-                          className={
-                            currentRoute === '/chef-expertis'
-                              ? 'active'
-                              : 'disable'
-                          }
-                        >
-                          Chef Experties
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href='/chef-details'
-                          className={
-                            currentRoute === '/chef-details'
-                              ? 'active'
-                              : 'disable'
-                          }
-                        >
-                          Chef Details
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <Link
-                      href='/shop'
-                      className={
-                        currentRoute === '/shop' ? 'active' : 'disable'
-                      }
-                    >
-                      Shop
-                    </Link>
-                    <i className='d-lg-flex d-none bi bi-chevron-right dropdown-icon' />
-                    <i
-                      className='d-lg-none d-flex bi bi-chevron-down dropdown-icon'
-                      onClick={() => dispatch({ type: 'shop' })}
-                    />
-                    <ul
-                      className={
-                        state.activeMenu === 'shop'
-                          ? 'sub-menu d-block'
-                          : 'sub-menu d-none'
-                      }
-                    >
-                      <li>
-                        <Link
-                          href='/shop'
-                          className={
-                            currentRoute === '/shop' ? 'active' : 'disable'
-                          }
-                        >
-                          Shop
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href='/shop-details'
-                          className={
-                            currentRoute === '/shop-details'
-                              ? 'active'
-                              : 'disable'
-                          }
-                        >
-                          Shop Details
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href='/cart'
-                          className={
-                            currentRoute === '/cart' ? 'active' : 'disable'
-                          }
-                        >
-                          Cart
-                        </Link>
-                      </li>
-                      <li>
-                        <Link
-                          href='/check-out'
-                          className={
-                            currentRoute === '/check-out' ? 'active' : 'disable'
-                          }
-                        >
-                          Checkout
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
-                  <li>
-                    <Link href='/faq'>Faq</Link>
-                  </li>
-                  <li>
-                    <Link href='/error'>Error</Link>
-                  </li>
-                </ul>
-              </li>
-              <li className='menu-item-has-children'>
-                <a href='#'>Blog</a>
-                <i
-                  onClick={() => dispatch({ type: 'blog' })}
-                  className={
-                    state.activeMenu === 'blog'
-                      ? 'bi bi-plus dropdown-icon active'
-                      : 'bi bi-plus dropdown-icon'
-                  }
-                />
-                <ul
-                  className={
-                    state.activeMenu === 'blog'
-                      ? 'sub-menu  d-block'
-                      : 'sub-menu d-xl-block d-none'
-                  }
-                >
-                  <li>
-                    <Link href='/blog-grid'>Blog Grid</Link>
-                  </li>
-                  <li>
-                    <Link href='/blog-standard'>Blog Standard</Link>
-                  </li>
-                  <li>
-                    <Link href='/blog-details'>Blog Details</Link>
-                  </li>
-                </ul>
-              </li>
               <li>
                 <Link
                   href='/contact'
@@ -517,9 +233,9 @@ function Header3() {
                 </svg>
               </div>
               <div className='hotline-info'>
-                <span>Call Now</span>
+                <span>Appelez au</span>
                 <h6>
-                  <a href='tel:+998-8776345'>+998-8776345</a>
+                  <a href='tel:+33563554189'>06 63 55 41 89</a>
                 </h6>
               </div>
             </div>
