@@ -118,13 +118,13 @@ function NewItem1() {
                         alt='new-items1'
                       />
                       <div className='price'>
-                        <span>Price - $8</span>
+                        <span>à partir de 8,50€</span>
                       </div>
                     </div>
                     <div className='content'>
                       <h3>
                         <Link legacyBehavior href='/shop-details'>
-                          <a>Chicken Fried</a>
+                          <a>Nos pizzas</a>
                         </Link>
                       </h3>
                     </div>
@@ -139,7 +139,7 @@ function NewItem1() {
                         alt='new-items1'
                       />
                       <div className='price'>
-                        <span>Price - $8</span>
+                        <span>à partir de 8,50€</span>
                       </div>
                     </div>
                     <div className='content'>
