@@ -39,12 +39,13 @@ function Menu1() {
                         src='assets/images/icon/sub-title-vec.svg'
                         alt='sub-title-vec'
                       />
-                      Pizzas Classiques
+                      26cm 8,50€ <br />
                       <img
                         className='right-vec'
                         src='assets/images/icon/sub-title-vec.svg'
                         alt='sub-title-vec'
                       />
+                      33cm 10,50€
                     </span>
                     {/* <h2>Menu Pizzas</h2> */}
                   </div>
@@ -56,16 +57,13 @@ function Menu1() {
                         </div>
                         <div className='menu-content'>
                           <div className='menu-title'>
-                            <h4>Paneer Butter</h4>
+                            <h4>Jambon</h4>
                             <span className='dot'>
                               <img src='assets/images/icon/dot.svg' alt='' />
                             </span>
-                            <span className='price'>$10</span>
+                            <span className='price'></span>
                           </div>
-                          <p>
-                            To much delicious food in our restaurant.Visit us
-                            &amp; taste it early.
-                          </p>
+                          <p>tomate, jambon, oeuf, olives, fromage</p>
                         </div>
                       </li>
                       <li>
@@ -78,7 +76,7 @@ function Menu1() {
                             <span className='dot'>
                               <img src='assets/images/icon/dot.svg' alt='' />
                             </span>
-                            <span className='price'>$15</span>
+                            <span className='price'></span>
                           </div>
                           <p>
                             To much delicious food in our restaurant.Visit us
@@ -196,7 +194,7 @@ function Menu1() {
                     src='assets/images/icon/food-origin.svg'
                     alt='food-origin'
                   />
-                  <h2>Indian Menu</h2>
+                  <h2>Pizzas Classiques</h2>
                   <img
                     src='assets/images/icon/food-origin.svg'
                     alt='food-origin'

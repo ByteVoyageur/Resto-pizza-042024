@@ -1247,7 +1247,7 @@ body.tt-magic-cursor #magic-cursor {
 }
 
 .section-title span {
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: 400;
   color: var(--primary-color1);
   line-height: 1.625rem;
@@ -1256,7 +1256,7 @@ body.tt-magic-cursor #magic-cursor {
   margin-bottom: 5px;
 }
 .section-title span .right-vec {
-  margin-left: 10px;
+  margin-right: 10px;
 }
 .section-title span .left-vec {
   margin-right: 10px;
@@ -4624,7 +4624,7 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
 }
 @media (max-width: 576px) {
   .menu-wrapper1 .menu-list ul {
-    padding: 60px 20px;
+    padding: 30px 20px;
   }
 }
 .menu-wrapper1 .menu-list ul li {
@@ -4708,7 +4708,7 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
   justify-content: center;
   flex-direction: column;
   height: 100%;
-  background-image: url(../images/bg/indian-menu-bg.png);
+  background-image: url(../images/pizza-classique.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
