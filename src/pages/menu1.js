@@ -33,12 +33,10 @@ function Menu1() {
       .catch((error) => console.error('Error loading the menu data:', error))
   }, [])
 
-  // Mapping each category to its corresponding style and section.
   const categoryStyles = {
     'pizzas classiques': 'indian-menu pt-120',
     'pizzas délicieuses': 'itlian-menu',
     'pizzas spéciales': 'reguler-menu mb-120',
-    // You can add more categories with their respective styles here.
   }
 
   const categoryClassSuffix = {
@@ -49,8 +47,6 @@ function Menu1() {
   }
 
   function getCategoryClass(category) {
-    console.log('Requested category:', category) // 打印请求的类别
-    console.log('Available keys:', Object.keys(categoryClassSuffix)) // 打印所有可用的键
     return categoryClassSuffix[category] || 'default-class'
   }
 
@@ -58,17 +54,11 @@ function Menu1() {
     <Layout>
       <Breadcrumb pageName='Menu Pizzas' pageTitle='Menu Pizzas' />
       {Object.keys(menuItems).map((category) => (
-        <div
-          key={category}
-          className={
-            categoryStyles[category.split(' ').join(' ').toLowerCase()]
-          }
-        >
+        <div key={category} className={categoryStyles[category]}>
           <div className='container'>
             <div className='row'>
               <div className='col-lg-6 px-0 order-lg-1 order-2'>
                 <div className='menu-wrapper1 two'>
-                  {/* Menu Section Title and Decorative Images */}
                   <div className='section-title text-center pt-60'>
                     <span>
                       <img
@@ -95,11 +85,29 @@ function Menu1() {
                             <div className='menu-title'>
                               <div className='menu-title-content'>
                                 <h4>{item.name}</h4>
-                                <img
-                                  className='diagram-plaque-img'
-                                  src='assets/images/baking-tray.png'
-                                  alt='Réalisable en plaque'
-                                />
+                                {item.tags && item.tags.includes('plaque') && (
+                                  <img
+                                    className='diagram-plaque-img'
+                                    src='assets/images/baking-tray.png'
+                                    alt='Réalisable en plaque'
+                                  />
+                                )}
+                                {item.tags &&
+                                  item.tags.includes('vegetarienne') && (
+                                    <img
+                                      className='diagram-plaque-img'
+                                      src='assets/images/vegetable.png'
+                                      alt='Végétarien'
+                                    />
+                                  )}
+                                {item.tags &&
+                                  item.tags.includes('Nouvelle') && (
+                                    <img
+                                      className='diagram-plaque-img'
+                                      src='assets/images/nouvelle.png'
+                                      alt='nouvelle'
+                                    />
+                                  )}
                               </div>
                               <span className='dot'>
                                 <img src='assets/images/icon/dot.svg' alt='' />
@@ -129,12 +137,7 @@ function Menu1() {
                     src='assets/images/icon/food-origin.svg'
                     alt='food-origin'
                   />
-                  <h2>
-                    {category.split(' ')[0].charAt(0).toUpperCase() +
-                      category.split(' ')[0].slice(1)}{' '}
-                    {category.split(' ')[1].charAt(0).toUpperCase() +
-                      category.split(' ')[1].slice(1)}
-                  </h2>
+                  <h2>{category}</h2>
                   <img
                     src='assets/images/icon/food-origin.svg'
                     alt='food-origin'
