@@ -1,881 +1,557 @@
-import React from "react";
-import Breadcrumb from "../components/common/Breadcrumb";
-import Home3Testimonial from "../components/testimonial/Home3Testimonial";
-import Layout from "../layout/Layout";
+import React from 'react'
+import Breadcrumb from '../components/common/Breadcrumb'
+import Layout from '../layout/Layout'
 
-function Menu2() {
+function Menu1() {
   return (
     <Layout>
-      <Breadcrumb pageName="Menu List-02" pageTitle="Menu List-02" />
-      <div className="menu2-area pt-120 mb-120">
-        <div className="container">
-          <div className="row">
-            <div className="col-lg-12">
-              <div className="menu2-tab mb-70">
-                <ul className="nav nav-tabs" id="myTab" role="tablist">
-                  <li className="nav-item" role="presentation">
-                    <button
-                      className="nav-link active"
-                      id="breakfast-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#breakfast"
-                      type="button"
-                      role="tab"
-                      aria-controls="breakfast"
-                      aria-selected="true"
-                    >
-                      Breakfast
-                    </button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button
-                      className="nav-link"
-                      id="lunch-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#lunch"
-                      type="button"
-                      role="tab"
-                      aria-controls="lunch"
-                      aria-selected="false"
-                    >
-                      Lunch
-                    </button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button
-                      className="nav-link"
-                      id="dinner-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#dinner"
-                      type="button"
-                      role="tab"
-                      aria-controls="dinner"
-                      aria-selected="false"
-                    >
-                      Dinner
-                    </button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button
-                      className="nav-link"
-                      id="starter-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#starter"
-                      type="button"
-                      role="tab"
-                      aria-controls="starter"
-                      aria-selected="false"
-                    >
-                      Starter
-                    </button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button
-                      className="nav-link"
-                      id="beverage-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#beverage"
-                      type="button"
-                      role="tab"
-                      aria-controls="beverage"
-                      aria-selected="false"
-                    >
-                      Berverage
-                    </button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button
-                      className="nav-link"
-                      id="wines-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#wines"
-                      type="button"
-                      role="tab"
-                      aria-controls="wines"
-                      aria-selected="false"
-                    >
-                      Wines
-                    </button>
-                  </li>
-                  <li className="nav-item" role="presentation">
-                    <button
-                      className="nav-link"
-                      id="apitizer-tab"
-                      data-bs-toggle="tab"
-                      data-bs-target="#apitizer"
-                      type="button"
-                      role="tab"
-                      aria-controls="apitizer"
-                      aria-selected="false"
-                    >
-                      Apitizer
-                    </button>
-                  </li>
-                </ul>
+      <Breadcrumb pageName='Menu Pizzas' pageTitle='Menu Pizzas' />
+      <div>
+        <div className='indian-menu pt-120'>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-lg-6 px-0 order-lg-1 order-2'>
+                <div className='menu-wrapper1 two'>
+                  <img
+                    className='menu-top-left'
+                    src='assets/images/icon/menu-top-left.svg'
+                    alt='menu-top-left'
+                  />
+                  <img
+                    className='menu-top-right'
+                    src='assets/images/icon/menu-top-right.svg'
+                    alt='menu-top-right'
+                  />
+                  <img
+                    className='menu-btm-right'
+                    src='assets/images/icon/menu-btm-right.svg'
+                    alt='menu-btm-right'
+                  />
+                  <img
+                    className='menu-btm-left'
+                    src='assets/images/icon/menu-btm-left.svg'
+                    alt='menu-btm-left'
+                  />
+                  <div className='section-title text-center pt-60'>
+                    <span>
+                      <img
+                        className='left-vec'
+                        src='assets/images/icon/sub-title-vec.svg'
+                        alt='sub-title-vec'
+                      />
+                      26cm 8,50€ <br />
+                      <img
+                        className='right-vec'
+                        src='assets/images/icon/sub-title-vec.svg'
+                        alt='sub-title-vec'
+                      />
+                      33cm 10,50€
+                    </span>
+                    {/* <h2>Menu Pizzas</h2> */}
+                  </div>
+                  <div className='diagram'>
+                    <div className='diagram-plaque'>
+                      <img
+                        className='diagram-plaque-img'
+                        src='assets/images/baking-tray.png'
+                        alt='réalisable en plaque'
+                      />
+                      Réalisable en plaque
+                    </div>
+                    <div className='diagram-vegetable'>
+                      <img
+                        className='diagram-vegetable-img'
+                        src='assets/images/vegetable.png'
+                        alt='vegetable'
+                      />
+                      Végétarien
+                    </div>
+                  </div>
+                  <div className='menu-list'>
+                    <ul>
+                      <li>
+                        <div className='sl'>
+                          <span>01.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>Jambon</h4>
+                              <img
+                                className='diagram-plaque-img'
+                                src='assets/images/baking-tray.png'
+                                alt='réalisable en plaque'
+                              />
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>tomate, jambon, oeuf, olives, fromage</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>02.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>Reine</h4>
+                              <img
+                                className='diagram-plaque-img'
+                                src='assets/images/baking-tray.png'
+                                alt='réalisable en plaque'
+                              />
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>tomate, champignons, jambon, fromage</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>03.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>Romaine</h4>
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>
+                            tomate, jambon, olives, filet de crème, fromage,
+                            <span class='highlight'>oeuf</span>
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>04.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>Fruits de Mer</h4>
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>
+                            tomate, fruits de mer, fromage
+                            <span class='highlight'>oeuf</span>
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>05.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>Campionne</h4>
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>
+                            Tomate, boeuf haché, oignons, fromage
+                            <span class='highlight'>oeuf</span>
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>06.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>Kebab</h4>
+                              <img
+                                className='diagram-plaque-img'
+                                src='assets/images/baking-tray.png'
+                                alt='réalisable en plaque'
+                              />
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>Tomate, jambon, oeuf, olives, fromage</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>07.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>Campagnarde</h4>
+                              <img
+                                className='diagram-plaque-img'
+                                src='assets/images/baking-tray.png'
+                                alt='réalisable en plaque'
+                              />
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>Tomate, champignons, lardons, oignons, fromage</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>08.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>Fermière</h4>
+                              <img
+                                className='diagram-plaque-img'
+                                src='assets/images/baking-tray.png'
+                                alt='réalisable en plaque'
+                              />
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>tomate, poulet, champignons, fromage</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>09.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>chèvre miel</h4>
+                              <img
+                                className='diagram-plaque-img'
+                                src='assets/images/baking-tray.png'
+                                alt='réalisable en plaque'
+                              />
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>Tomate, chèvre, fromage, miel</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>10.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>Merguez</h4>
+                              <img
+                                className='diagram-plaque-img'
+                                src='assets/images/baking-tray.png'
+                                alt='réalisable en plaque'
+                              />
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>tomate, merguez, poivrons, fromage</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>11.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>Chorizo</h4>
+                              <img
+                                className='diagram-plaque-img'
+                                src='assets/images/baking-tray.png'
+                                alt='réalisable en plaque'
+                              />
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>Tomate, jambon, chorizo, fromage</p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>12.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <div className='menu-title-content'>
+                              <h4>Indienne</h4>
+                              <img
+                                className='diagram-plaque-img'
+                                src='assets/images/baking-tray.png'
+                                alt='réalisable en plaque'
+                              />
+                            </div>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'></span>
+                          </div>
+                          <p>Tomate, poulet, curry, ooignon, fromage</p>
+                        </div>
+                      </li>
+                    </ul>
+                    <div className='notice-location'>
+                      <h4>
+                        <span>N.S:</span> Si vous souffrez d'une intolérance
+                        d'une allergiem, merci de l'indiquer avant de votre
+                        commande.
+                      </h4>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='col-lg-6 px-0 order-lg-2 order-1'>
+                <div className='food-orgin one'>
+                  <div className='resturent-name'></div>
+                  <img
+                    src='assets/images/icon/food-origin.svg'
+                    alt='food-origin'
+                  />
+                  <h2>Pizzas Classiques</h2>
+                  <img
+                    src='assets/images/icon/food-origin.svg'
+                    alt='food-origin'
+                  />
+                </div>
               </div>
             </div>
-            <div className="col-lg-12">
-              <div className="tab-content" id="myTabContent">
-                <div
-                  className="tab-pane fade show active"
-                  id="breakfast"
-                  role="tabpanel"
-                  aria-labelledby="breakfast-tab"
-                >
-                  <div className="row">
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-left-img">
-                        <img
-                          src="assets/images/bg/menu2-left-img-01.png"
-                          alt=""
-                        />
-                        <div className="overlay">
-                          <div className="vec-left">
-                            <img
-                              src="assets/images/icon/menu1-left-vec.svg"
-                              alt=""
-                            />
-                          </div>
-                          <div className="vec-right">
-                            <img
-                              src="assets/images/icon/menu1-right-vec.svg"
-                              alt=""
-                            />
-                          </div>
-                          <span>Friday Offer</span>
-                          <h2>
-                            20% <span>Discount</span>
-                          </h2>
-                          <h3>Our Breakfast Menu</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-wrap">
-                        <div className="menu-title">
-                          <h2>Breakfast</h2>
-                        </div>
-                        <ul>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Veggie Burgers</h4>
-                                <p>
-                                  It has survived not only five centuries the
-                                  leap need.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$80</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Sweet Peppers</h4>
-                                <p>
-                                  It has survived not only five centuries, but
-                                  also the electronic.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$40</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Ricotta Cheese</h4>
-                                <p>
-                                  It has survived not only five centuries also
-                                  the leap know.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$60</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Black Beans</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$50</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Special Kabab</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$40</span>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+          </div>
+        </div>
+        <div className='menu-divider'>
+          <img src='assets/images/icon/sub-title-vec.svg' alt='sub-title-vec' />
+          <span />
+          <img src='assets/images/icon/sub-title-vec.svg' alt='sub-title-vec' />
+        </div>
+        <div className='itlian-menu'>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-lg-6 px-0'>
+                <div className='food-orgin two'>
+                  <div className='resturent-name'>
+                    <h2>RESTHO</h2>
                   </div>
+                  <img
+                    src='assets/images/icon/food-origin.svg'
+                    alt='food-origin'
+                  />
+                  <h2>Italian Menu</h2>
+                  <img
+                    src='assets/images/icon/food-origin.svg'
+                    alt='food-origin'
+                  />
                 </div>
-                <div
-                  className="tab-pane fade"
-                  id="lunch"
-                  role="tabpanel"
-                  aria-labelledby="lunch-tab"
-                >
-                  <div className="row">
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-left-img">
-                        <img
-                          src="assets/images/bg/menu2-left-img-01.png"
-                          alt=""
-                        />
-                        <div className="overlay">
-                          <div className="vec-left">
-                            <img
-                              src="assets/images/icon/menu1-left-vec.svg"
-                              alt=""
-                            />
-                          </div>
-                          <div className="vec-right">
-                            <img
-                              src="assets/images/icon/menu1-right-vec.svg"
-                              alt=""
-                            />
-                          </div>
-                          <span>Friday Offer</span>
-                          <h2>
-                            15% <span>Discount</span>
-                          </h2>
-                          <h3>Our Lunch Menu</h3>
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-wrap">
-                        <div className="menu-title">
-                          <h2>Lunch</h2>
-                        </div>
-                        <ul>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Lemon rice</h4>
-                                <p>
-                                  It has survived not only five centuries the
-                                  leap need.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$66</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Pasta salad.</h4>
-                                <p>
-                                  It has survived not only five centuries, but
-                                  also the electronic.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$22</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Masala poha.</h4>
-                                <p>
-                                  It has survived not only five centuries also
-                                  the leap know.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$40</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Methi parantha</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$30</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Moong dal khichd</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$40</span>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
+              </div>
+              <div className='col-lg-6 px-0'>
+                <div className='menu-wrapper1 two'>
+                  <img
+                    className='menu-top-left'
+                    src='assets/images/icon/menu-top-left.svg'
+                    alt='menu-top-left'
+                  />
+                  <img
+                    className='menu-top-right'
+                    src='assets/images/icon/menu-top-right.svg'
+                    alt='menu-top-right'
+                  />
+                  <img
+                    className='menu-btm-right'
+                    src='assets/images/icon/menu-btm-right.svg'
+                    alt='menu-btm-right'
+                  />
+                  <img
+                    className='menu-btm-left'
+                    src='assets/images/icon/menu-btm-left.svg'
+                    alt='menu-btm-left'
+                  />
+                  <div className='section-title text-center pt-60'>
+                    <span>
+                      <img
+                        className='left-vec'
+                        src='assets/images/icon/sub-title-vec.svg'
+                        alt='sub-title-vec'
+                      />
+                      Welcome to Restho
+                      <img
+                        className='right-vec'
+                        src='assets/images/icon/sub-title-vec.svg'
+                        alt='sub-title-vec'
+                      />
+                    </span>
+                    {/* <h2>Indian Menu</h2> */}
                   </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="dinner"
-                  role="tabpanel"
-                  aria-labelledby="dinner-tab"
-                >
-                  <div className="row">
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-left-img">
-                        <img
-                          src="assets/images/bg/menu2-left-img-01.png"
-                          alt=""
-                        />
-                        <div className="overlay">
-                          <div className="vec-left">
-                            <img
-                              src="assets/images/icon/menu1-left-vec.svg"
-                              alt=""
-                            />
-                          </div>
-                          <div className="vec-right">
-                            <img
-                              src="assets/images/icon/menu1-right-vec.svg"
-                              alt=""
-                            />
-                          </div>
-                          <span>Friday Offer</span>
-                          <h2>
-                            25% <span>Discount</span>
-                          </h2>
-                          <h3>Our Dinner Menu</h3>
+                  <div className='menu-list'>
+                    <ul>
+                      <li>
+                        <div className='sl'>
+                          <span>01.</span>
                         </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-wrap">
-                        <div className="menu-title">
-                          <h2>Dinner</h2>
-                        </div>
-                        <ul>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Lemon Chicken</h4>
-                                <p>
-                                  It has survived not only five centuries the
-                                  leap need.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$80</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Chettinad Fish Fry</h4>
-                                <p>
-                                  It has survived not only five centuries, but
-                                  also the electronic.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$40</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Dum Aloo Lakhnawi</h4>
-                                <p>
-                                  It has survived not only five centuries also
-                                  the leap know.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$60</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Keema Biryani</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$50</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Shahi Egg Curry</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$40</span>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="starter"
-                  role="tabpanel"
-                  aria-labelledby="starter-tab"
-                >
-                  <div className="row">
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-left-img">
-                        <img
-                          src="assets/images/bg/menu2-left-img-01.png"
-                          alt=""
-                        />
-                        <div className="overlay">
-                          <div className="vec-left">
-                            <img
-                              src="assets/images/icon/menu1-left-vec.svg"
-                              alt=""
-                            />
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Paneer Butter</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$10</span>
                           </div>
-                          <div className="vec-right">
-                            <img
-                              src="assets/images/icon/menu1-right-vec.svg"
-                              alt=""
-                            />
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>02.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Veg Biriyani</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$15</span>
                           </div>
-                          <span>Friday Offer</span>
-                          <h2>
-                            30% <span>Discount</span>
-                          </h2>
-                          <h3>Our Starter Menu</h3>
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
                         </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-wrap">
-                        <div className="menu-title">
-                          <h2>Starter</h2>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>03.</span>
                         </div>
-                        <ul>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Bandage Cutlets</h4>
-                                <p>
-                                  It has survived not only five centuries the
-                                  leap need.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$25</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Crispy Corn</h4>
-                                <p>
-                                  It has survived not only five centuries, but
-                                  also the electronic.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$20</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Veg Momos</h4>
-                                <p>
-                                  It has survived not only five centuries also
-                                  the leap know.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$17</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Bhara Kabab</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$45</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Moong Dal Bhel</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$24</span>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="beverage"
-                  role="tabpanel"
-                  aria-labelledby="beverage-tab"
-                >
-                  <div className="row">
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-left-img">
-                        <img
-                          src="assets/images/bg/menu2-left-img-01.png"
-                          alt=""
-                        />
-                        <div className="overlay">
-                          <div className="vec-left">
-                            <img
-                              src="assets/images/icon/menu1-left-vec.svg"
-                              alt=""
-                            />
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Fried Rice</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$22</span>
                           </div>
-                          <div className="vec-right">
-                            <img
-                              src="assets/images/icon/menu1-right-vec.svg"
-                              alt=""
-                            />
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>04.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Italian Sambar</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$18</span>
                           </div>
-                          <span>Friday Offer</span>
-                          <h2>
-                            20% <span>Discount</span>
-                          </h2>
-                          <h3>Our Berverage Menu</h3>
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
                         </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-wrap">
-                        <div className="menu-title">
-                          <h2>Beverage</h2>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>05.</span>
                         </div>
-                        <ul>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Coffee</h4>
-                                <p>
-                                  It has survived not only five centuries the
-                                  leap need.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$12</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Sparkling drinks</h4>
-                                <p>
-                                  It has survived not only five centuries, but
-                                  also the electronic.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$15</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Lemon Juices</h4>
-                                <p>
-                                  It has survived not only five centuries also
-                                  the leap know.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$15</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Milkshakes</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$22</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Tonic Water</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$18</span>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="wines"
-                  role="tabpanel"
-                  aria-labelledby="wines-tab"
-                >
-                  <div className="row">
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-left-img">
-                        <img
-                          src="assets/images/bg/menu2-left-img-01.png"
-                          alt=""
-                        />
-                        <div className="overlay">
-                          <div className="vec-left">
-                            <img
-                              src="assets/images/icon/menu1-left-vec.svg"
-                              alt=""
-                            />
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Italian Rasam</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$10</span>
                           </div>
-                          <div className="vec-right">
-                            <img
-                              src="assets/images/icon/menu1-right-vec.svg"
-                              alt=""
-                            />
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>06.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Chicken Tikka</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$18</span>
                           </div>
-                          <span>Friday Offer</span>
-                          <h2>
-                            20% <span>Discount</span>
-                          </h2>
-                          <h3>Our Wines Menu</h3>
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
                         </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-wrap">
-                        <div className="menu-title">
-                          <h2>Wines</h2>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>07.</span>
                         </div>
-                        <ul>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Shiraz (Syrah)</h4>
-                                <p>
-                                  It has survived not only five centuries the
-                                  leap need.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$20</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Malbec</h4>
-                                <p>
-                                  It has survived not only five centuries, but
-                                  also the electronic.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$24</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Merlot</h4>
-                                <p>
-                                  It has survived not only five centuries also
-                                  the leap know.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$17</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Red Zinfandal</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$38</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Pinot Noir</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$30</span>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div
-                  className="tab-pane fade"
-                  id="apitizer"
-                  role="tabpanel"
-                  aria-labelledby="apitizer-tab"
-                >
-                  <div className="row">
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-left-img">
-                        <img
-                          src="assets/images/bg/menu2-left-img-01.png"
-                          alt=""
-                        />
-                        <div className="overlay">
-                          <div className="vec-left">
-                            <img
-                              src="assets/images/icon/menu1-left-vec.svg"
-                              alt=""
-                            />
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Vegetarian Burger</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$18</span>
                           </div>
-                          <div className="vec-right">
-                            <img
-                              src="assets/images/icon/menu1-right-vec.svg"
-                              alt=""
-                            />
-                          </div>
-                          <span>Friday Offer</span>
-                          <h2>
-                            20% <span>Discount</span>
-                          </h2>
-                          <h3>Our Apitizer Menu</h3>
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
                         </div>
-                      </div>
-                    </div>
-                    <div className="col-lg-6 p-0">
-                      <div className="menu2-wrap">
-                        <div className="menu-title">
-                          <h2>Apitizer</h2>
-                        </div>
-                        <ul>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Fruit Charcuterie</h4>
-                                <p>
-                                  It has survived not only five centuries the
-                                  leap need.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$80</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Hot Spinach Artichoke Dip</h4>
-                                <p>
-                                  It has survived not only five centuries, but
-                                  also the electronic.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$40</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Bean Dip</h4>
-                                <p>
-                                  It has survived not only five centuries also
-                                  the leap know.
-                                </p>
-                              </div>
-                              <div className="price">
-                                <span>$60</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Buffalo Chicken Dip</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$50</span>
-                              </div>
-                            </div>
-                          </li>
-                          <li>
-                            <div className="single-menu">
-                              <div className="menu-name">
-                                <h4>Creamy Artichoke Dip</h4>
-                                <p>It has survived not only five centuries.</p>
-                              </div>
-                              <div className="price">
-                                <span>$40</span>
-                              </div>
-                            </div>
-                          </li>
-                        </ul>
-                      </div>
+                      </li>
+                    </ul>
+                    <div className='notice-location'>
+                      <h4>
+                        <span>N.B:</span> All food are available in restauarnt
+                        &amp; don’t waste your food.
+                      </h4>
+                      <p>Address: Mirpur DOHS, House No-167/170, Avenue-01.</p>
                     </div>
                   </div>
                 </div>
@@ -883,10 +559,213 @@ function Menu2() {
             </div>
           </div>
         </div>
+        <div className='menu-divider'>
+          <img src='assets/images/icon/sub-title-vec.svg' alt='sub-title-vec' />
+          <span />
+          <img src='assets/images/icon/sub-title-vec.svg' alt='sub-title-vec' />
+        </div>
+        <div className='reguler-menu mb-120'>
+          <div className='container'>
+            <div className='row'>
+              <div className='col-lg-6 px-0 order-lg-1 order-2'>
+                <div className='menu-wrapper1 two'>
+                  <img
+                    className='menu-top-left'
+                    src='assets/images/icon/menu-top-left.svg'
+                    alt='menu-top-left'
+                  />
+                  <img
+                    className='menu-top-right'
+                    src='assets/images/icon/menu-top-right.svg'
+                    alt='menu-top-right'
+                  />
+                  <img
+                    className='menu-btm-right'
+                    src='assets/images/icon/menu-btm-right.svg'
+                    alt='menu-btm-right'
+                  />
+                  <img
+                    className='menu-btm-left'
+                    src='assets/images/icon/menu-btm-left.svg'
+                    alt='menu-btm-left'
+                  />
+                  <div className='section-title text-center pt-60'>
+                    <span>
+                      <img
+                        className='left-vec'
+                        src='assets/images/icon/sub-title-vec.svg'
+                        alt='sub-title-vec'
+                      />
+                      Welcome to Restho
+                      <img
+                        className='right-vec'
+                        src='assets/images/icon/sub-title-vec.svg'
+                        alt='sub-title-vec'
+                      />
+                    </span>
+                    {/* <h2>Indian Menu</h2> */}
+                  </div>
+                  <div className='menu-list'>
+                    <ul>
+                      <li>
+                        <div className='sl'>
+                          <span>01.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Paneer Butter</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$10</span>
+                          </div>
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>02.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Veg Biriyani</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$15</span>
+                          </div>
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>03.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Fried Rice</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$22</span>
+                          </div>
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>04.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Sambar</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$18</span>
+                          </div>
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>05.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Rasam</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$10</span>
+                          </div>
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>06.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Chicken Tikka</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$18</span>
+                          </div>
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
+                        </div>
+                      </li>
+                      <li>
+                        <div className='sl'>
+                          <span>07.</span>
+                        </div>
+                        <div className='menu-content'>
+                          <div className='menu-title'>
+                            <h4>Vegetarian Burger</h4>
+                            <span className='dot'>
+                              <img src='assets/images/icon/dot.svg' alt='' />
+                            </span>
+                            <span className='price'>$18</span>
+                          </div>
+                          <p>
+                            To much delicious food in our restaurant.Visit us
+                            &amp; taste it early.
+                          </p>
+                        </div>
+                      </li>
+                    </ul>
+                    <div className='notice-location'>
+                      <h4>
+                        <span>N.B:</span> All food are available in restauarnt
+                        &amp; don’t waste your food.
+                      </h4>
+                      <p>Address: Mirpur DOHS, House No-167/170, Avenue-01.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              <div className='col-lg-6 px-0 order-lg-2 order-1'>
+                <div className='food-orgin three'>
+                  <div className='resturent-name'>
+                    <h2>RESTHO</h2>
+                  </div>
+                  <img
+                    src='assets/images/icon/food-origin.svg'
+                    alt='food-origin'
+                  />
+                  <h2>Reguler Menu</h2>
+                  <img
+                    src='assets/images/icon/food-origin.svg'
+                    alt='food-origin'
+                  />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
-      <Home3Testimonial />
     </Layout>
-  );
+  )
 }
 
-export default Menu2;
+export default Menu1
