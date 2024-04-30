@@ -4742,18 +4742,24 @@ header.style-3 .main-menu ul li.menu-item-has-children > i {
   justify-content: center;
   flex-direction: column;
   height: 100%;
-  background-image: url(../images/pizza-classique.png);
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
   z-index: 1;
   padding: 150px 0;
 }
+.food-orgin.one {
+  background-image: url('/assets/images/pizza-classique.png');
+}
+
 .food-orgin.two {
-  background-image: url(../images/bg/italian-menu-bg.png);
+  background-image: url('/assets/images/pizza-delicieuse.png');
 }
 .food-orgin.three {
-  background-image: url(../images/bg/regular-menu-bg.png);
+  background-image: url('/assets/images/pizza-special.png');
+}
+.food-orgin.four {
+  background-image: url('/assets/images/pizza-gourmande.png');
 }
 .food-orgin .resturent-name {
   position: absolute;
