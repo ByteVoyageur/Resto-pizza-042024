@@ -46,6 +46,13 @@ function Menu1() {
     'pizzas gourmandes': 'four',
   }
 
+  const categoryPrices = {
+    'pizzas classiques': '26cm 8,50€ | 33cm 10,50€',
+    'pizzas délicieuses': '26cm 9,00€ | 33cm 11,50€',
+    'pizzas spéciales': '26cm 10,00€ | 33cm 12,50€',
+    'pizzas gourmandes': '26cm 11,00€ | 33cm 13,50€',
+  }
+
   function getCategoryClass(category) {
     return categoryClassSuffix[category] || 'default-class'
   }
@@ -73,7 +80,6 @@ function Menu1() {
         </div>
         <p>Tous les ingrédients surlignés sont ajoutés après cuisson.</p>
       </div>
-
       {Object.keys(menuItems).map((category) => (
         <div key={category} className={categoryStyles[category]}>
           <div className='container'>
@@ -94,6 +100,9 @@ function Menu1() {
                         alt='Sub Title Vector'
                       />
                     </span>
+                    <div className='price-info'>
+                      {categoryPrices[category.toLowerCase()]}
+                    </div>
                   </div>
                   <div className='menu-list'>
                     <ul>

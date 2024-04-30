@@ -199,18 +199,9 @@ i.bx {
   }
 }
 
-.pt-120 {
-  padding-top: 120px;
-}
 @media (min-width: 992px) and (max-width: 1199px) {
-  .pt-120 {
-    padding-top: 90px;
-  }
 }
 @media (max-width: 991px) {
-  .pt-120 {
-    padding-top: 80px;
-  }
 }
 
 .pt-90 {
@@ -13863,6 +13854,7 @@ footer .footer-btm .privacy-policy p a:hover {
   flex-direction: column;
   margin-bottom: 20px;
   justify-content: center;
+  padding-top: 1.5rem;
 }
 .etiquette {
   display: flex;
@@ -13871,4 +13863,28 @@ footer .footer-btm .privacy-policy p a:hover {
 }
 .etiquette img {
   max-width: 30px;
+}
+.menu-list-area {
+  display: flex; /* 设置flex布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  min-height: 100vh; /* 至少占满整个视窗的高度 */
+  padding-top: 0; /* 如果不需要原有的上内边距，可以设置为0 */
+  padding-bottom: 0; /* 如果不需要原有的下内边距，也可以设置为0 */
+}
+
+.menu-pizza-presentation {
+  text-align: center; /* 文本居中，适用于内部的<p>标签 */
+}
+
+.etiquette {
+  display: flex; /* 设置flex布局 */
+  justify-content: center; /* 水平居中 */
+  align-items: center; /* 垂直居中 */
+  gap: 20px; /* 设置子项之间的间距 */
+}
+.price-info {
+  padding-top: 1em;
+  color: var(--primary-color1);
+  font-size: 1.5rem;
 }
