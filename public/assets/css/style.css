@@ -13908,3 +13908,21 @@ footer .footer-btm .privacy-policy p a:hover {
   background-color: #bf9444;
   color: #fff;
 } /*# sourceMappingURL=style.css.map */
+.after-highlight {
+  color: white;
+  background-color: #5e5e5e;
+}
+.menu-pizza-presentation {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 20px;
+  justify-content: center;
+}
+.etiquette {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.etiquette img {
+  max-width: 30px;
+}

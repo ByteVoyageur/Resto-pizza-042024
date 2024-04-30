@@ -53,6 +53,27 @@ function Menu1() {
   return (
     <Layout>
       <Breadcrumb pageName='Menu Pizzas' pageTitle='Menu Pizzas' />
+      <div className='menu-pizza-presentation'>
+        <div className='etiquette'>
+          <div className='realisation-en-plaque'>
+            <img
+              src='assets/images/baking-tray.png'
+              alt='Réalisable en plaque'
+            />
+            <span>Réalisable en plaque</span>
+          </div>
+          <div className='vegetarienne'>
+            <img src='assets/images/vegetable.png' alt='Végétarien' />
+            <span>Végétarien</span>
+          </div>
+          <div className='nouvelle'>
+            <img src='assets/images/nouvelle.png' alt='Nouvelle' />
+            <span>Nouvelle</span>
+          </div>
+        </div>
+        <p>Tous les ingrédients surlignés sont ajoutés après cuisson.</p>
+      </div>
+
       {Object.keys(menuItems).map((category) => (
         <div key={category} className={categoryStyles[category]}>
           <div className='container'>
@@ -116,10 +137,12 @@ function Menu1() {
                             </div>
                             <p>
                               {item.ingredients.join(', ')}
+                              {item.after && item.after.length > 0 && ', '}
                               {item.after &&
                                 item.after.map((ingredient, key) => (
-                                  <span key={key} className='highlight'>
+                                  <span key={key} className='after-highlight'>
                                     {ingredient}
+                                    {key < item.after.length - 1 ? ', ' : ''}
                                   </span>
                                 ))}
                             </p>

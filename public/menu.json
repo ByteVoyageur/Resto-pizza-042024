@@ -1480,7 +1480,7 @@
     "options": [],
     "tags": ["Nouvelle", "vegetarienne"],
     "ingredients": ["tomate", "burrata", "tomate serise", "fromage"],
-    "after": ["parmesan", "roquette", "oignon rouge cru"],
+    "after": ["oignon rouge cru", "pesto", "roquette"],
     "allergens": [],
     "quantity": 1,
     "valid": true,
