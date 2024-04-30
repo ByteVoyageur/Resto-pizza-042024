@@ -21,7 +21,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["plaque"],
     "ingredients": ["tomate", "jambon", "oeuf", "olives", "fromage"],
     "after": [],
     "allergens": [],
@@ -50,7 +50,7 @@
         "img": "http://15.188.50.31/backend/img/pizzas/reine-grande.png"
       }
     },
-    "options": [],
+    "options": ["plaque"],
     "tags": [],
     "ingredients": ["tomate", "jambon", "champignons", "fromage"],
     "allergens": [],
@@ -170,7 +170,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["plaque"],
     "ingredients": ["tomate", "jambon", "oeuf", "olives", "fromage"],
     "after": ["sauce kebab"],
     "allergens": [],
@@ -200,7 +200,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["plaque"],
     "ingredients": ["tomate", "champignons", "lardons", "oignons", "fromage"],
     "after": [],
     "allergens": [],
@@ -231,7 +231,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["plaque"],
     "ingredients": ["tomate", "poulet", "champignons", "fromage"],
     "after": [],
     "allergens": [],
@@ -261,7 +261,7 @@
       }
     },
     "options": [],
-    "tags": ["vegetarienne"],
+    "tags": ["plaque", "vegetarienne"],
     "ingredients": ["tomate", "chèvre", "fromage"],
     "after": ["miel"],
     "allergens": [],
@@ -291,7 +291,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["plaque"],
     "ingredients": ["tomate", "merguez", "poivrons", "fromage"],
     "after": [],
     "allergens": [],
@@ -321,7 +321,7 @@
       }
     },
     "options": [],
-    "tags": ["Nouvelle"],
+    "tags": ["plaque"],
     "ingredients": ["tomate", "jambon", "chorizo", "fromage"],
     "after": [],
     "allergens": [],
@@ -351,7 +351,7 @@
       }
     },
     "options": [],
-    "tags": ["Nouvelle"],
+    "tags": ["plaque", "Nouvelle"],
     "ingredients": ["tomate", "poulet", "curry", "ooignon", "fromage"],
     "after": [],
     "allergens": [],
@@ -380,7 +380,7 @@
         "img": "http://15.188.50.31/backend/img/pizzas/anchoyade-grande.png"
       }
     },
-    "options": [],
+    "options": ["plaque"],
     "tags": [],
     "ingredients": ["tomate", "", "", "", "fromage"],
     "after": [],
@@ -411,7 +411,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["plaque"],
     "ingredients": ["tomate", "chèvre", "lardons", "poivrons", "fromage"],
     "after": [],
     "allergens": [],
@@ -509,7 +509,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["plaque"],
     "ingredients": [
       "tomate",
       "gésiers",
@@ -527,7 +527,7 @@
   {
     "baseId": 40206,
     "category": "Pizzas délicieuses",
-    "name": "ACalzone",
+    "name": "Calzone (chausson)",
     "description": "chausson",
     "sizes": {
       "petite": {
@@ -576,7 +576,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["plaque"],
     "ingredients": [
       "tomate",
       "cantal",
@@ -679,7 +679,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["plaque"],
     "ingredients": [
       "tomate",
       "poulet",
@@ -716,7 +716,7 @@
       }
     },
     "options": [],
-    "tags": ["Nouvelle", "vegetarienne"],
+    "tags": ["vegetarienne"],
     "ingredients": [
       "tomate",
       "champignons",
@@ -818,7 +818,7 @@
       }
     },
     "options": [],
-    "tags": ["vegetarienne"],
+    "tags": ["plaque", "vegetarienne"],
     "ingredients": ["tomate", "roquefort", "chèvre", "cantal", "fromage"],
     "after": [],
     "allergens": [],
@@ -848,7 +848,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["plaque"],
     "ingredients": [
       "tomate",
       "reblochon",
@@ -952,7 +952,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["plaque"],
     "ingredients": ["tomate", "saumon fumé", "filet de crème", "fromage"],
     "after": [],
     "allergens": [],
@@ -1055,7 +1055,7 @@
       }
     },
     "options": [],
-    "tags": ["Nouvelle", "vegetarienne"],
+    "tags": ["plaque"],
     "ingredients": [
       "tomate",
       "lardons",
@@ -1073,7 +1073,7 @@
   {
     "baseId": 40310,
     "category": "Pizzas Spéciales",
-    "name": "Végétarienne",
+    "name": "Parmigiana",
     "description": "",
     "sizes": {
       "petite": {
@@ -1092,7 +1092,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["Nouvelle", "vegetarienne"],
     "ingredients": ["tomate", "aubergine", "tomates cerises", "fromage"],
     "after": ["parmesan", "pesto"],
     "allergens": [],
@@ -1478,7 +1478,7 @@
       }
     },
     "options": [],
-    "tags": [],
+    "tags": ["Nouvelle", "vegetarienne"],
     "ingredients": ["tomate", "burrata", "tomate serise", "fromage"],
     "after": ["parmesan", "roquette", "oignon rouge cru"],
     "allergens": [],
