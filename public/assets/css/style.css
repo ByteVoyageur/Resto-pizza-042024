@@ -1966,28 +1966,7 @@ header.style-1 .main-menu ul > li ul.sub-menu > li .sub-menu li i {
 header.style-1 .main-menu ul > li ul.sub-menu > li:last-child {
   border-bottom: none;
 }
-header.style-1 .main-menu ul > li.menu-item-has-children::after {
-  content: '\f282';
-  font-family: 'bootstrap-icons';
-  font-weight: 400;
-  position: absolute;
-  top: 32px;
-  right: 10px;
-  font-size: 13px;
-  color: var(--white);
-  transition: all 0.42s ease-in-out;
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  header.style-1 .main-menu ul > li.menu-item-has-children::after {
-    right: 0;
-  }
-}
-@media (max-width: 991px) {
-  header.style-1 .main-menu ul > li.menu-item-has-children::after {
-    display: none;
-    visibility: hidden;
-  }
-}
+
 header.style-1 .main-menu ul > li:hover a {
   color: var(--primary-color1);
 }
@@ -2452,17 +2431,7 @@ header.style-2 .main-menu ul > li ul.sub-menu > li .sub-menu li i {
 header.style-2 .main-menu ul > li ul.sub-menu > li:last-child {
   border-bottom: none;
 }
-header.style-2 .main-menu ul > li.menu-item-has-children::after {
-  content: '\f282';
-  font-family: 'bootstrap-icons';
-  font-weight: 500;
-  position: absolute;
-  top: 36px;
-  right: 10px;
-  font-size: 13px;
-  color: var(--title-color-dark);
-  transition: all 0.42s ease-in-out;
-}
+
 @media (min-width: 992px) and (max-width: 1199px) {
   header.style-2 .main-menu ul > li.menu-item-has-children::after {
     right: 0;
@@ -2946,28 +2915,7 @@ header.style-3 .main-menu ul > li ul.sub-menu > li:hover .dropdown-icon {
 header.style-3 .main-menu ul > li ul.sub-menu > li:last-child {
   border-bottom: none;
 }
-header.style-3 .main-menu ul > li.menu-item-has-children::after {
-  content: '\f282';
-  font-family: 'bootstrap-icons';
-  font-weight: 500;
-  position: absolute;
-  top: 40px;
-  right: 10px;
-  font-size: 13px;
-  color: var(--title-color-dark);
-  transition: all 0.42s ease-in-out;
-}
-@media (min-width: 992px) and (max-width: 1199px) {
-  header.style-3 .main-menu ul > li.menu-item-has-children::after {
-    right: 0;
-  }
-}
-@media (max-width: 991px) {
-  header.style-3 .main-menu ul > li.menu-item-has-children::after {
-    display: none;
-    visibility: hidden;
-  }
-}
+
 header.style-3 .main-menu ul > li:hover a {
   color: var(--primary-color1);
 }
@@ -2982,9 +2930,7 @@ header.style-3 .main-menu ul > li.active a {
 header.style-3 .main-menu ul > li.active::after {
   color: var(--primary-color1);
 }
-header.style-3 .main-menu ul li.menu-item-has-children > i {
-  display: block;
-}
+
 @media only screen and (max-width: 991px) {
   header.style-3 .main-menu {
     position: fixed;
