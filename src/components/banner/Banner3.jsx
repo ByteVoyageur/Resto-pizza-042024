@@ -41,7 +41,7 @@ function Banner3() {
               src='assets/images/icon/h3-sub-title-vec.svg'
               alt=''
             />{' '}
-            Bienvenu chez Xin{' '}
+            La Flambée Italienne{' '}
             <img
               className='right-vec'
               src='assets/images/icon/h3-sub-title-vec.svg'
@@ -51,9 +51,9 @@ function Banner3() {
           <h1>
             Pizzas artisanales <br /> au feu de bois
           </h1>
-          <Link legacyBehavior href='/about'>
+          <Link legacyBehavior href='/menu1'>
             <a className='primary-btn7 btn-md2'>
-              <i className='bi bi-arrow-up-right-circle' /> Notre Menu
+              <i className='bi bi-arrow-up-right-circle' /> Nos pizzas
             </a>
           </Link>
         </div>
