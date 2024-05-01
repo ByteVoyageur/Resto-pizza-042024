@@ -48,7 +48,7 @@ function About3() {
                 <h5>Peuvent être découpées en 46 ou 96 parts</h5>
               </div>
               <div className='discover-btn'>
-                <Link legacyBehavior href='/about'>
+                <Link legacyBehavior href='/menu1'>
                   <a className='primary-btn7 btn-md2'>
                     <i className='bi bi-arrow-up-right-circle' />
                     Discover More

@@ -111,8 +111,8 @@ function Header3() {
               </li>
               <li>
                 <Link
-                  href='/menu2'
-                  className={currentRoute === '/menu2' ? 'active' : 'disable'}
+                  href='/menu-entrees'
+                  className={currentRoute === '/entrees' ? 'active' : 'disable'}
                 >
                   Entrées
                 </Link>
@@ -127,6 +127,16 @@ function Header3() {
                   Pâtes
                 </Link>
               </li>
+              <li>
+                <Link
+                  href='/menu-desserts'
+                  className={
+                    currentRoute === '/menu-desserts' ? 'active' : 'disable'
+                  }
+                >
+                  Desserts
+                </Link>
+              </li>
             </ul>
 
             <div className='reservation-btn d-lg-none d-flex'>
@@ -136,9 +146,10 @@ function Header3() {
             </div>
           </div>
           <div className='nav-right d-flex jsutify-content-end align-items-center'>
-            <Link href='/reservation' legacyBehavior>
-              <a className='primary-btn6 btn-md'>Find Reservation</a>
+            <Link href='tel:123-456-7890' legacyBehavior>
+              <a className='primary-btn6 btn-md'>05 63 55 41 89</a>
             </Link>
+
             <div
               className='sidebar-button mobile-menu-btn '
               onClick={() =>

@@ -10,7 +10,7 @@ function MenuEntrees() {
       .then((response) => response.json())
       .then((data) => {
         const filteredItems = data.filter(
-          (item) => item.category.toLowerCase() === 'pâtes'
+          (item) => item.category.toLowerCase() === 'desserts'
         )
         setMenuItems(filteredItems)
       })
@@ -19,7 +19,7 @@ function MenuEntrees() {
 
   return (
     <Layout>
-      <Breadcrumb pageName='Menu Pâtes' pageTitle='Menu Pâtes' />
+      <Breadcrumb pageName='Desserts' pageTitle='Desserts' />
       <div className='menu-divider'>
         <img src='assets/images/icon/sub-title-vec.svg' alt='sub-title-vec' />
         <span />
@@ -31,7 +31,7 @@ function MenuEntrees() {
             <div className='col-lg-6 px-0 order-lg-1 order-2'>
               <div className='menu-wrapper1 two'>
                 <div className='section-title text-center pt-60'>
-                  <span>PÂTES</span>
+                  <span>DESSERTS</span>
                 </div>
                 <ul className='menu-list entree-list'>
                   {menuItems.map((item, index) => (
@@ -77,7 +77,7 @@ function MenuEntrees() {
                   src='assets/images/icon/food-origin.svg'
                   alt='food-origin'
                 />
-                <h2>PÂTES</h2>
+                <h2>DESSERTS</h2>
                 <img
                   src='assets/images/icon/food-origin.svg'
                   alt='food-origin'

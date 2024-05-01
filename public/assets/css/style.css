@@ -11679,7 +11679,7 @@ footer .footer-btm .privacy-policy p a:hover {
    11. Error Pages
 =======================================*/
 .error-pages {
-  background-image: url(../images/bg/error-page-bg.png);
+  background-image: url(../images/404.png);
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;

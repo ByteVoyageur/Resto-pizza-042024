@@ -144,7 +144,7 @@ function NewItem1() {
                     </div>
                     <div className='content'>
                       <h3>
-                        <Link href='/shop-details' legacyBehavior>
+                        <Link href='/menu-entrees' legacyBehavior>
                           <a>Salades</a>
                         </Link>
                       </h3>
@@ -165,7 +165,7 @@ function NewItem1() {
                     </div>
                     <div className='content'>
                       <h3>
-                        <Link legacyBehavior href='/shop-details'>
+                        <Link legacyBehavior href='/menu-pates'>
                           <a>Pâtes</a>
                         </Link>
                       </h3>
@@ -186,50 +186,8 @@ function NewItem1() {
                     </div>
                     <div className='content'>
                       <h3>
-                        <Link legacyBehavior href='/shop-details'>
+                        <Link legacyBehavior href='/menu-desserts'>
                           <a>Desserts</a>
-                        </Link>
-                      </h3>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className='swiper-slide'>
-                  <div className='new-items-wrap2'>
-                    <div className='items-img'>
-                      <img
-                        className='img-fluid'
-                        src='assets/images/bg/glaces.png'
-                        alt='new-items1'
-                      />
-                      <div className='price'>
-                        <span></span>
-                      </div>
-                    </div>
-                    <div className='content'>
-                      <h3>
-                        <Link legacyBehavior href='/shop-details'>
-                          <a>Desserts</a>
-                        </Link>
-                      </h3>
-                    </div>
-                  </div>
-                </SwiperSlide>
-                <SwiperSlide className='swiper-slide'>
-                  <div className='new-items-wrap2'>
-                    <div className='items-img'>
-                      <img
-                        className='img-fluid'
-                        src='assets/images/bg/menu-20-euros.png'
-                        alt='new-items1'
-                      />
-                      <div className='price'>
-                        <span>Menu 20€</span>
-                      </div>
-                    </div>
-                    <div className='content'>
-                      <h3>
-                        <Link legacyBehavior href='/shop-details'>
-                          <a>Entrée+Plat+Dessert</a>
                         </Link>
                       </h3>
                     </div>
@@ -311,19 +269,6 @@ function NewItem1() {
                   <img
                     src='assets/images/bg/dessert-crepes.png'
                     alt='dessert-crepes'
-                  />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className='swiper-slide'>
-                <div className='new-items-sm-img'>
-                  <img src='assets/images/bg/glaces.png' alt='new-item-sm5' />
-                </div>
-              </SwiperSlide>
-              <SwiperSlide className='swiper-slide'>
-                <div className='new-items-sm-img'>
-                  <img
-                    src='assets/images/bg/menu-20-euros.png'
-                    alt='new-item-sm6'
                   />
                 </div>
               </SwiperSlide>

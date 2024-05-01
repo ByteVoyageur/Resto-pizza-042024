@@ -7,65 +7,7 @@ function Footer() {
       <div className='footer-top '>
         <div className='container'>
           <div className='row justify-content-center align-items-center gy-5'>
-            <div className='col-lg-4 col-md-6  order-md-1 order-2'>
-              <div className='footer-widget one'>
-                <div className='widget-title'>
-                  <h3>Acces rapide</h3>
-                </div>
-                <div className='menu-container'>
-                  <ul>
-                    <li>
-                      <Link legacyBehavior href='/menu1'>
-                        Indian Menu
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href='/menu1'>
-                        Menu Item
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href='/reservation'>
-                        Private Event
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href='/menu1'>
-                        Italian Menu
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href='/category'>
-                        Best Offer
-                      </Link>
-                    </li>
-                  </ul>
-                  <ul>
-                    <li>
-                      <Link legacyBehavior href='/category'>
-                        Popular Item
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href='/menu1'>
-                        Regular Menu
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href='/menu1'>
-                        New Food
-                      </Link>
-                    </li>
-                    <li>
-                      <Link legacyBehavior href='/category'>
-                        Special Offer
-                      </Link>
-                    </li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-            <div className='col-lg-4 col-md-6 order-md-2 order-1'>
+            <div className='col-lg-4  order-md-2 order-1'>
               <div className='footer-widgetfooter-widget social-area'>
                 <div className='footer-logo text-center'>
                   <Link legacyBehavior href='/'>
@@ -106,10 +48,10 @@ function Footer() {
                 </div>
               </div>
             </div>
-            <div className='col-lg-4 col-md-6 order-3'>
+            <div className='col-lg-4  order-md-3 order-3'>
               <div className='footer-widget one'>
                 <div className='widget-title'>
-                  <h3>Address Info</h3>
+                  <h3>Nous contater</h3>
                 </div>
                 <div className='contact-info'>
                   <div className='single-contact'>
@@ -124,12 +66,7 @@ function Footer() {
                       <a href='mailto:info@example.com'>info@example.com</a>
                     </span>
                   </div>
-                  <div className='single-contact'>
-                    <span className='title'>Fax ID:</span>
-                    <span className='content'>
-                      <a href='fax:+9975667786'>+99-75667-786</a>
-                    </span>
-                  </div>
+
                   <div className='single-contact'>
                     <span className='title'>Location:</span>
                     <span className='content'>
@@ -154,21 +91,14 @@ function Footer() {
                 <p>
                   @Copyright by{' '}
                   <Link legacyBehavior href='#'>
-                    Xiaosong
+                    La Flambée Italienne
                   </Link>
                   -2024, All Right Reserved.
                 </p>
               </div>
             </div>
             <div className='col-md-4 d-flex justify-content-md-end justify-content-center'>
-              <div className='privacy-policy'>
-                <p>
-                  <Link legacyBehavior href='#'>
-                    Privacy &amp; Policy
-                  </Link>{' '}
-                  | <a href='#'>Terms and Conditions</a>
-                </p>
-              </div>
+              <div className='privacy-policy'></div>
             </div>
           </div>
         </div>
