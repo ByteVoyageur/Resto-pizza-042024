@@ -181,7 +181,12 @@ function Menu1() {
           <div className='menu-divider'>
             <img
               src='assets/images/icon/sub-title-vec.svg'
-              alt='Sub Title Vector'
+              alt='sub-title-vec'
+            />
+            <span />
+            <img
+              src='assets/images/icon/sub-title-vec.svg'
+              alt='sub-title-vec'
             />
           </div>
         </div>

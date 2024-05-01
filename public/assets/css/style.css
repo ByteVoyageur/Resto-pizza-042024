@@ -1302,6 +1302,7 @@ body.tt-magic-cursor #magic-cursor {
   flex-direction: row;
   align-items: center;
   gap: 10px;
+  justify-content: space-between;
 }
 .phone-number {
   margin-top: 25px;
@@ -13887,4 +13888,22 @@ footer .footer-btm .privacy-policy p a:hover {
   padding-top: 1em;
   color: var(--primary-color1);
   font-size: 1.5rem;
+}
+.entree-info {
+  font-size: 15px;
+}
+.entree-list {
+  padding-right: 1em;
+}
+.menu-title-content .price {
+  font-size: 1.5rem;
+  color: var(--primary-color1);
+  font-weight: 700;
+  font-family: var(--font-cormorant);
+}
+.entrees-img {
+  background-image: url('/assets/images/entree-font-img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
 }

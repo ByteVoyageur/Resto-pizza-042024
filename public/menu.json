@@ -1491,22 +1491,7 @@
     "category": "Entrées",
     "name": "Salade verte",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12001,
-        "price": 3,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 11001,
-        "price": 5,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "2,50€",
     "options": [],
     "tags": [],
     "ingredients": [],
@@ -1520,22 +1505,7 @@
     "category": "Entrées",
     "name": "Salade mixte",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12002,
-        "price": 6,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 11002,
-        "price": 8,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "5,50€",
     "options": [],
     "tags": [],
     "ingredients": ["salade", "tomate", "jambon", "olives", "champignons"],
@@ -1549,22 +1519,7 @@
     "category": "Entrées",
     "name": "Salade gésiers lardons",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12003,
-        "price": 6.5,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 11003,
-        "price": 9,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "6,00€",
     "options": [],
     "tags": [],
     "ingredients": [],
@@ -1578,22 +1533,7 @@
     "category": "Entrées",
     "name": "Salade chèvre chaud",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12004,
-        "price": 6.5,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-chevre-petite.png"
-      },
-      "grande": {
-        "id": 11004,
-        "price": 9,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "6,00€",
     "options": [],
     "tags": [],
     "ingredients": ["salade", "tomate", "chèvre chaud", "jambon serrano"],
@@ -1607,22 +1547,7 @@
     "category": "Entrées",
     "name": "Salade d'anchois",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12005,
-        "price": 6.5,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 11005,
-        "price": 9,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "6,00€",
     "options": [],
     "tags": [],
     "ingredients": ["salade", "tomate", "anchois", "olives"],
@@ -1636,22 +1561,7 @@
     "category": "Entrées",
     "name": "Salade jambon Serrano",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12006,
-        "price": 6.5,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 11006,
-        "price": 9,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "6,00€",
     "options": [],
     "tags": [],
     "ingredients": [],
@@ -1665,25 +1575,24 @@
     "category": "Entrées",
     "name": "Salade au cantal",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12007,
-        "price": 6.5,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 11007,
-        "price": 9,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "6,00€",
     "options": [],
     "tags": [],
     "ingredients": ["salade", "tomate", "cantal", "jambon serrano"],
+    "allergens": [],
+    "quantity": 1,
+    "valid": true,
+    "deliveble": true
+  },
+  {
+    "baseId": 100071,
+    "category": "Entrées",
+    "name": "Salade au gésiers lardons",
+    "description": "",
+    "price": "6,50€",
+    "options": [],
+    "tags": [],
+    "ingredients": [],
     "allergens": [],
     "quantity": 1,
     "valid": true,
@@ -1694,22 +1603,7 @@
     "category": "Entrées",
     "name": "Salade pétoncles persillés",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12008,
-        "price": 7,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 11008,
-        "price": 10,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "6,50€",
     "options": [],
     "tags": [],
     "ingredients": [],
@@ -1721,30 +1615,14 @@
   {
     "baseId": 10009,
     "category": "Entrées",
-    "name": "Salade tomate mozzarella di bufala",
+    "name": "Tomate mozzarella di bufala",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12009,
-        "price": 7,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 11009,
-        "price": 10,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "6,50€",
     "options": [],
     "tags": [],
     "ingredients": [
       "tomate",
       "mozzarella di bufala",
-      "basilic",
       "basilic",
       "pesto",
       "huile d'olive"
@@ -1759,22 +1637,7 @@
     "category": "Entrées",
     "name": "Salade marine",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12010,
-        "price": 8,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 11010,
-        "price": 11.5,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "7,50€",
     "options": [],
     "tags": [],
     "ingredients": [
@@ -1795,22 +1658,7 @@
     "category": "Entrées",
     "name": "Salade gourmande",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12011,
-        "price": 8,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 11011,
-        "price": 11.5,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "7,50€",
     "options": [],
     "tags": [],
     "ingredients": [
@@ -1831,24 +1679,9 @@
     "category": "Entrées",
     "name": "Salade burrata",
     "description": "",
-    "sizes": {
-      "petite": {
-        "id": 12012,
-        "price": 8,
-        "weight": 150,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      },
-      "grande": {
-        "id": 11012,
-        "price": 11.5,
-        "weight": 250,
-        "selected": false,
-        "img": "http://15.188.50.31/backend/img/entrees/salade-verte.png"
-      }
-    },
+    "price": "7,50€",
     "options": [],
-    "tags": ["Nouvelle"],
+    "tags": ["nouvelle"],
     "ingredients": [
       "burrata",
       "tomate",
@@ -1862,6 +1695,7 @@
     "valid": true,
     "deliveble": true
   },
+
   {
     "baseId": 50001,
     "category": "Desserts",

@@ -123,7 +123,7 @@ function NewItem1() {
                     </div>
                     <div className='content'>
                       <h3>
-                        <Link legacyBehavior href='/shop-details'>
+                        <Link legacyBehavior href='/menu1'>
                           <a>Nos pizzas</a>
                         </Link>
                       </h3>
@@ -202,13 +202,13 @@ function NewItem1() {
                         alt='new-items1'
                       />
                       <div className='price'>
-                        <span>Price - $8</span>
+                        <span></span>
                       </div>
                     </div>
                     <div className='content'>
                       <h3>
                         <Link legacyBehavior href='/shop-details'>
-                          <a>Full Chicken</a>
+                          <a>Desserts</a>
                         </Link>
                       </h3>
                     </div>
