@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import Breadcrumb from '../components/common/Breadcrumb'
 import Layout from '../layout/Layout'
 
-function MenuEntrees() {
+function MenuPates() {
   const [menuItems, setMenuItems] = useState([])
 
   useEffect(() => {
@@ -10,7 +10,7 @@ function MenuEntrees() {
       .then((response) => response.json())
       .then((data) => {
         const filteredItems = data.filter(
-          (item) => item.category.toLowerCase() === 'entrées'
+          (item) => item.category.toLowerCase() === 'pâtes'
         )
         setMenuItems(filteredItems)
       })
@@ -31,7 +31,7 @@ function MenuEntrees() {
             <div className='col-lg-6 px-0 order-lg-1 order-2'>
               <div className='menu-wrapper1 two'>
                 <div className='section-title text-center pt-60'>
-                  <span>ENTRÉES</span>
+                  <span>Pâtes</span>
                 </div>
                 <ul className='menu-list entree-list'>
                   {menuItems.map((item, index) => (
@@ -71,13 +71,13 @@ function MenuEntrees() {
               </div>
             </div>
             <div className='col-lg-6 px-0 order-lg-2 order-1'>
-              <div className='food-orgin default-class entrees-img'>
+              <div className='food-orgin default-class pates-img'>
                 <div className='resturent-name'></div>
                 <img
                   src='assets/images/icon/food-origin.svg'
                   alt='food-origin'
                 />
-                <h2>Entrées</h2>
+                <h2>Pâtes</h2>
                 <img
                   src='assets/images/icon/food-origin.svg'
                   alt='food-origin'
@@ -96,4 +96,4 @@ function MenuEntrees() {
   )
 }
 
-export default MenuEntrees
+export default MenuPates

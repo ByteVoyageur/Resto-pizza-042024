@@ -97,7 +97,6 @@ function Header3() {
               <li className='menu-item-has-children'>
                 <Link href='/'>Acceuil</Link>
               </li>
-
               <li className='menu-item-has-children'>
                 <Link
                   href='/menu1'
@@ -112,16 +111,26 @@ function Header3() {
               </li>
               <li>
                 <Link
-                  href='/contact'
-                  className={currentRoute === '/contact' ? 'active' : 'disable'}
+                  href='/menu2'
+                  className={currentRoute === '/menu2' ? 'active' : 'disable'}
                 >
-                  Contact
+                  Entrées
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='/menu-pates'
+                  className={
+                    currentRoute === '/menu-pates' ? 'active' : 'disable'
+                  }
+                >
+                  Pâtes
                 </Link>
               </li>
             </ul>
 
             <div className='reservation-btn d-lg-none d-flex'>
-              <Link href='/reservation' className='primary-btn4 btn-md'>
+              <Link href='#' className='primary-btn4 btn-md'>
                 05 63 55 41 89
               </Link>
             </div>

@@ -1301,7 +1301,6 @@ body.tt-magic-cursor #magic-cursor {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 10px;
   justify-content: space-between;
 }
 .phone-number {
@@ -13903,6 +13902,12 @@ footer .footer-btm .privacy-policy p a:hover {
 }
 .entrees-img {
   background-image: url('/assets/images/entree-font-img.png');
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.pates-img {
+  background-image: url('/assets/images/pates-fond.png');
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;

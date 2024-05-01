@@ -9,8 +9,6 @@ const initialState = {
 }
 function reducer(state, action) {
   switch (action.type) {
-    case 'homeOne':
-      return { ...state, activeMenu: 'homeOne' }
     case 'suits':
       return { ...state, activeMenu: 'suits' }
     case 'blog':
@@ -30,9 +28,10 @@ function reducer(state, action) {
     case 'setScrollY':
       return { ...state, scrollY: action.payload }
     default:
-      throw new Error()
+      return state
   }
 }
+
 function Header3() {
   const currentRoute = useRouter().pathname
   const [state, dispatch] = useReducer(reducer, initialState)
@@ -50,7 +49,6 @@ function Header3() {
       window.removeEventListener('scroll', handleScroll)
     }
   }, [])
-
   return (
     <>
       <header
@@ -113,22 +111,33 @@ function Header3() {
               </li>
               <li>
                 <Link
-                  href='/contact'
-                  className={currentRoute === '/contact' ? 'active' : 'disable'}
+                  href='/menu2'
+                  className={currentRoute === '/menu2' ? 'active' : 'disable'}
                 >
-                  Contact
+                  Entrées
+                </Link>
+              </li>
+              <li>
+                <Link
+                  href='/menu-pates'
+                  className={
+                    currentRoute === '/menu-pates' ? 'active' : 'disable'
+                  }
+                >
+                  Pâtes
                 </Link>
               </li>
             </ul>
+
             <div className='reservation-btn d-lg-none d-flex'>
-              <Link href='/reservation' className='primary-btn4 btn-md'>
+              <Link href='#' className='primary-btn4 btn-md'>
                 05 63 55 41 89
               </Link>
             </div>
           </div>
           <div className='nav-right d-flex jsutify-content-end align-items-center'>
             <Link href='/reservation' legacyBehavior>
-              <a className='primary-btn6 btn-md'>05 63 55 41 89</a>
+              <a className='primary-btn6 btn-md'>Find Reservation</a>
             </Link>
             <div
               className='sidebar-button mobile-menu-btn '
