@@ -8,8 +8,8 @@ function Layout({ children }) {
     <>
       <Head>
         <title>pizza-La Flambéé Italienne</title>
-        <meta name='pizzaria' content='Restaurant rapide Réalemont' />
-        <link rel='icon' href='assets/images/favicon.ico' />
+        <meta name='pizzeria' content='Restaurant rapide Réalemont' />
+        <link rel='icon' href='assets/images/icon/logo-icon.ico' />
       </Head>
       <Header />
       {children}

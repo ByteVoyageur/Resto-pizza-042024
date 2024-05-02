@@ -584,7 +584,7 @@ html .ui-button.ui-state-disabled:active:hover {
 .preloader::before {
   position: absolute;
   top: 45%;
-  content: url(../images/icon/logo-icon.svg);
+  content: url(../images/icon/logo-icon.ico);
   width: 100%;
   /* max-width: 300px; */
   margin: auto auto;
