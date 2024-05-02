@@ -87,8 +87,8 @@ function NewItem1() {
               <div className='items-content text-center'>
                 <span>Offre spéciale</span>
                 <h3>
-                  La <span className='number'>11ͤ </span> et la{' '}
-                  <span className='number'>21ͤ </span> PIZZA
+                  La <span className='number'>11</span> et la{' '}
+                  <span className='number'>21e</span> PIZZA
                 </h3>
                 <div className='descount-area text-center'>
                   <h3>GRATUITES</h3>
